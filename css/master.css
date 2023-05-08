@@ -1,0 +1,119 @@
+/* 
+
+No Code Here
+
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("/images/Background.jpg");
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgb(60, 48, 48);
+}
+
+.weather-app {
+    font-size: 30px;
+    font-weight: bold;
+    color: #858ee3;
+}
+
+.card {
+    background-color: #000000d0;
+    color: white;
+    padding: 25px;
+    border-radius: 30px;
+    width: 600px;
+    height: 400px;
+}
+
+.card .search {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.card .search .search-bar {
+    width: 300px;
+    padding: 5px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #7c7c7c2b;
+    color: white;
+    font-size: 18px;
+}
+
+.card .search button {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #7c7c7c2b;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.card .search button:hover {
+    background-color: #7c7c7c6b;
+}
+
+.card .search button i {
+    color: white;
+}
+
+.card .search .search-bar:focus {
+    outline: none;
+}
+
+.card .weather {
+    margin-left: 10px;
+}
+
+.card .weather .city {
+    font-size: 30px;
+}
+
+.card .weather .temp {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 35px;
+}
+
+.card .weather .other-info {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 35px;
+}
+
+.card .des-icon {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    height: 40px;
+    position: relative;
+    bottom: 10px;
+}
+
+.card .des-icon .icon {
+    width: 60px;
+}
+
+
+
+
+
+
