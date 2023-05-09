@@ -16,7 +16,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url("/images/Background.jpg");
+    background-image: url("../images/Background.jpg");
     flex-direction: column;
     gap: 30px;
     background-color: rgb(60, 48, 48);
