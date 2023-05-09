@@ -37,7 +37,7 @@ body {
     height: 400px;
 }
 
-@media (min-width: 576px) { 
+@media (max-width: 576px) { 
     
 .card {
     width: 360px;
