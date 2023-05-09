@@ -37,6 +37,15 @@ body {
     height: 400px;
 }
 
+@media (min-width: 576px) { 
+    
+.card {
+    width: 360px;
+    height: 450px;
+}
+
+}
+
 .card .search {
     display: flex;
     justify-content: center;
